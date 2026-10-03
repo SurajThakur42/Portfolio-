@@ -1,3 +1,5 @@
+import portraitImage from '../assets/images/suraj_profile_placeholder.svg';
+
 export interface Project {
   id: string;
   number: string;
@@ -47,7 +49,7 @@ export const PORTFOLIO_DATA = {
     leetcode: "https://leetcode.com/u/surajthakur8312",
     hackerrank: "Suraj Thakur",
     statusText: "Available for Software Engineering Roles & Internships",
-    portraitUrl: "/src/assets/images/suraj_thakur_real_portrait_1790928047964.jpg",
+    portraitUrl: portraitImage,
   },
 
   heroStats: [
