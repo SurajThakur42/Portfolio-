@@ -1,4 +1,4 @@
-import portraitImage from '../assets/images/suraj_profile_placeholder.svg';
+import portraitImage from '../assets/images/WhatsApp Image 2026.jpeg';
 
 export interface Project {
   id: string;
