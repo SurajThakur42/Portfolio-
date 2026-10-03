@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Bebas Neue', -apple-system, sans-serif;
+    --font-body: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-script: 'Caveat', cursive;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #090a0d;
+    color: #f4f4f5;
+    overflow-x: hidden;
+  }
+}
+
+.font-display {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.font-script {
+  font-family: 'Caveat', cursive;
+}
+
+.font-mono-tech {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom glow and atmosphere utilities matching Stitch design */
+.red-glow {
+  text-shadow: 0 0 24px rgba(239, 68, 68, 0.45), 0 0 48px rgba(220, 38, 38, 0.25);
+}
+
+.red-box-glow {
+  box-shadow: 0 0 35px -5px rgba(239, 68, 68, 0.25);
+}
+
+.red-subtle-glow {
+  box-shadow: 0 0 15px -3px rgba(239, 68, 68, 0.2);
+}
+
+.red-rim-glow {
+  box-shadow: 0 0 50px rgba(220, 38, 38, 0.18), inset 0 0 30px rgba(220, 38, 38, 0.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090a0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ef4444;
+}
